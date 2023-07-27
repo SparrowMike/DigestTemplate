@@ -22,10 +22,10 @@ const mailOptions = {
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    </head>
  
-   <body style="margin: 50px">
-     <table id="parent" style="margin: 0 auto; background: #F7F7F6; font-family: 'Roboto', sans-serif;" cellpadding="0" cellspacing="0" width="600">
+   <body style="margin-top: 50px">
+     <table id="parent" align="center" font-family: 'Roboto', sans-serif;" cellpadding="0" cellspacing="0" width="600">
        <tr>
-         <th style="padding: 32px 0" align="center">
+         <th style="padding: 32px 0; background: #F7F7F6;" align="center">
            <img style="object-fit: cover; border-radius: 50%; width: 45px; height: 45px; vertical-align: middle;" src="https://s3.us-east-2.amazonaws.com/forexchatroom/3ca2c240ecee01794e265db2ab067f4.png" alt="" width="44" height="auto">
            <h3 style="margin: 0 0 0 16px; display: inline-block; color: #22314C; vertical-align: middle;">
              Genesiv
@@ -39,7 +39,7 @@ const mailOptions = {
          </td>
        </tr>
  
-       <table style="padding: 40px 36px; margin: 0 auto; background: #f7f7f6; font-family: 'roboto', sans-serif;" width="600" cellspacing="0">
+       <table style="padding: 40px 36px; background: #f7f7f6; font-family: 'roboto', sans-serif;" width="600" cellspacing="0" align="center">
          <th style="padding: 0; background-color: #ffffff;">
            <table style="font-family: 'roboto', sans-serif;" width="100%" cellspacing="0">
              <tr >
@@ -55,19 +55,25 @@ const mailOptions = {
  
              <tr>
                <th>
-                 <table cellspacing="0" cellpadding="0" align="center" style="height: 110px; position: relative; width: 180px; position:">
+                 <table cellpadding="0" cellspacing="0" border="0" align="center">
                    <tr>
-                     <td style="position: absolute; left: calc(50% - 120px); transform: 50%;">
-                       <img src="https://plus.unsplash.com/premium_photo-1678935941839-e66f46191c66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
-                            style=" border-radius: 50%; border: 4px solid #ffffff; object-fit: cover; width:100px; height: 100px;">
+                     <td style="padding: 0;">
+                      <div style="text-align: center; width: 90px">
+                      <img src="https://plus.unsplash.com/premium_photo-1678935941839-e66f46191c66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
+                      style=" border-radius: 50%; border: 4px solid #ffffff; object-fit: cover; width: 100px; height: 100px;">
+                      </div>
                      </td>
-                     <td style="position: absolute; left: 50%; transform: translateX(-50%)">
-                       <img src="https://images.unsplash.com/photo-1682862261357-31c4ec647807?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" 
-                            style="border-radius: 50%; border: 4px solid #ffffff; object-fit: cover; width:100px; height: 100px;">
+                     <td style="padding: 0;">
+                      <div style="text-align: center; width: 90px">
+                      <img src="https://images.unsplash.com/photo-1682862261357-31c4ec647807?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" 
+                      style="border-radius: 50%; border: 4px solid #ffffff; object-fit: cover; width: 100px; height: 100px;">
+                      </div>
                      </td>
-                     <td style="position: absolute; left: 50%; transform: translateX(-50%); margin-left: 70px">
-                       <img src="https://images.unsplash.com/photo-1682999029155-d8b26349468f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" 
-                            style=" border-radius: 50%; border: 4px solid #ffffff; object-fit: cover; width:100px; height: 100px;">
+                     <td style="padding: 0;">
+                      <div style="text-align: center; width: 90px">
+                      <img src="https://images.unsplash.com/photo-1682999029155-d8b26349468f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" 
+                      style=" border-radius: 50%; border: 4px solid #ffffff; object-fit: cover; width: 100px; height: 100px;">
+                      </div>
                      </td>
                    </tr>
                  </table>
@@ -93,7 +99,7 @@ const mailOptions = {
          </th>
        </table>
  
-       <table style="margin: 8px auto; font-family: 'Roboto', sans-serif;" cellpadding="0" cellspacing="0" width="600">
+       <table style="font-family: 'Roboto', sans-serif;" cellpadding="0" cellspacing="0" width="600">
          <tr align="left">
            <th>
              <form action="" method="post">
@@ -104,7 +110,6 @@ const mailOptions = {
            </th>
          </tr>
        </table>
-       
      </table>
    </body>
  </html>
