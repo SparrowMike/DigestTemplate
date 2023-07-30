@@ -99,7 +99,7 @@ const mailOptions = {
          </th>
        </table>
  
-       <table style="font-family: 'Roboto', sans-serif;" cellpadding="0" cellspacing="0" width="600">
+       <table style="font-family: 'Roboto', sans-serif;" cellpadding="0" cellspacing="0" width="600" align="center">
          <tr align="left">
            <th>
              <form action="" method="post">
